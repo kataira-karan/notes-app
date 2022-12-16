@@ -1,0 +1,159 @@
+
+  .about-us-container {
+    margin-top:10vh;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  
+.about-us-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    margin: auto;
+    padding:5rem 0;
+
+}
+
+  h3 {
+    color: #fff;
+  }
+ 
+  
+  a:link,
+  a:active,
+  a:visited {
+    color: rgba(255, 255, 255, 1);
+  }
+  
+  a:hover {
+    color: rgba(255, 255, 255, 0.6);
+  }
+  
+  .title {
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    top: 40%;
+  }
+  
+  .box {
+    width: 100%;
+    margin: 15px 10px;
+    padding: 0;
+  }
+  
+  .box figure {
+    position: relative;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .box figure img {
+    width: 100%;
+    object-fit: cover;
+    height: 500px;
+  }
+  
+  .box h3 {
+    margin: 0 auto;
+    font-size: 1.4em !important;
+    color: #fff !important;
+    text-align: center !important;
+    margin: 10px !important;
+    text-transform: uppercase;
+  }
+  
+  .box p {
+    font-size: 1em !important;
+    color: #444 !important;
+    text-align: center !important;
+  }
+  
+  .box figcaption p {
+    color: #fff !important;
+  }
+  
+  .box figcaption ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .box figcaption ul {
+    visibility: visible;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+  }
+  
+  .box figcaption ul li {
+    display: inline-block;
+    padding: 10px;
+  }
+  
+  .box h4 {
+    margin: 10px 0 0;
+    padding: 0;
+  }
+  
+  .box figcaption {
+    padding: 10%;
+    color: transparent;
+    background-color: transparent;
+    position: absolute;
+    z-index: 996;
+    bottom: 0;
+    left: 0;
+    width: 80%;
+    height: 0;
+    margin: 0 0 !important;
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    line-height: 1.6em;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .box figure:hover figcaption {
+    visibility: visible;
+    color: #fff;
+    background: rgba(56, 53, 53, 0.4);
+    height: 81%;
+
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .box figure:hover figcaption ul li a:hover {
+    color: rgba(49, 49, 49, .97);
+  }
+  
+  .box figure img {
+  
+    transition: all 0.4s ease-in-out;
+  }
+  
+  .box figure:hover img {
+
+    transition: all 0.4s ease-in-out;
+  }
+  
+  @media only screen and (max-width : 765px) {
+    
+    .about-us-container  {
+    flex-direction: column
+  }
+    
+  }

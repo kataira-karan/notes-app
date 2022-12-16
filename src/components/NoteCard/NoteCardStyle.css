@@ -1,0 +1,110 @@
+.note-card{
+    position: relative;
+    height: 28vh;
+    width: 20vw;
+    background-color: white;
+    border-radius: 20px ;
+    box-shadow: 2px 2px 2px grey;
+    border: none;
+    cursor: pointer;
+    padding:1rem 1.5rem;
+    margin-bottom: 1rem ;
+}
+
+
+.note-card-footer{
+    display: flex;
+    width: 90%;
+    font-size: 0.6rem;
+    justify-content: space-between;
+    /* background-color: aliceblue;  */
+    margin: 1rem 1rem;
+    /* padding : 0.5rem 0; */
+    position: absolute;
+    bottom: 0;
+}
+
+.footer{
+    font-size: 0.9rem;
+    color:grey;
+    font-weight: 700;
+}
+
+.note-card-header-section{
+    display: flex;
+    width: 100%;
+    /* padding : 0.5rem 0; */
+    /* margin: 0.3rem 1rem;  */
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.note-header{
+    font-size: 1.3rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+
+.note-body{
+    margin-top: 1rem;
+    width: 93%;
+    /* background-color: aqua; */
+    height: 70%;
+    overflow-wrap: break-word;
+}
+
+
+.footer{
+    width: 86%;
+    position: absolute;
+    bottom: 1rem;
+}
+
+
+/* for editing mode */
+
+.add-title-inputfield{
+    width: 90%;
+    border :none;
+    border-bottom: 0.5px solid grey;
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.add-title-inputfield:focus{
+    outline: none;
+    
+}
+
+.add-note-field{
+    resize: none;
+    width: 80%;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 2px 2px 2px grey;
+}
+.add-note-field{
+    outline: none;
+}
+
+.text-length-validator{
+    font-size: 0.75rem;
+    color: rgb(81, 168, 81);
+}
+
+.save-note-button{
+    border:none;
+    padding:0.5rem 1rem;
+    box-shadow: 2px 2px 2px grey; 
+    border-radius: 5px;
+    margin-top:0.35rem;
+
+}
+
+.delete-icon:hover{
+    font-size: 1.2rem;
+    color: red;
+}
